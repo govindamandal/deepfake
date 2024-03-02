@@ -20,5 +20,5 @@ from videodetection import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('detect', views.index)
+    path('', views.index)
 ]
